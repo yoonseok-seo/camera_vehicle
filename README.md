@@ -14,8 +14,12 @@ version:
 
 
 
+1) Unlock the compressed files
 
-1) Unlock the compressed file(u-boot-imx_20240829.tar.gz)
+   uboot.egg ==> decompress ===> u-boot-imx_20240829.tar.gz
+    
+
+2) Unlock the compressed file(u-boot-imx_20240829.tar.gz)
 
     $mkdir u-boot-imx
   
@@ -23,7 +27,7 @@ version:
   
     $tar cvfz u-boot-imx_20240829.tar.gz
 
-2) u-boot build
+3) u-boot build
  
    $ ./uboot_make.sh imx8mp_mv_defconfig
 
